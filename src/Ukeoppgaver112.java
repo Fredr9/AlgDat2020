@@ -16,7 +16,7 @@ public class Ukeoppgaver112 {
 
     static int min(int[] a) {
         // initialiser med første element
-        int min_value = a[0];
+        int min_value = a[1];
         int min_index = 0;
         // Loop over alle resterende elementer og sjekker om vi finner
         // et mindre tall
@@ -38,6 +38,7 @@ public class Ukeoppgaver112 {
 
         int max_value = a[0];
         int max_index = 0;
+        //System.out.println(max_value);
 
         for(int i = 1; i < a.length; ++i){
             int maxValue = a[i];
