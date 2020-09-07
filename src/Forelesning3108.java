@@ -6,7 +6,10 @@ public class Forelesning3108 {
         int [] d = {2,3,4,7,9};
 
 
+
+
     }
+
 
 
      public int usortetSok(int[] a, int value) {

@@ -1,8 +1,10 @@
 public class Ukeoppgaver114 {
     public static void main(String[] args) {
        // I den første
-        int[] a = {10, 5, 7, 2, 9, 1, 3, 8, 4, 6};
+        int[] a = {10, 5, 7, 2, 9, 1, 3, 8, 4, 63,1000};
         System.out.println(a[maks(a)]);
+        System.out.println(maks(a));
+        System.out.println(a[2]);
 
     }
         public static int maks( int[] a)   // versjon 2 av maks-metoden
